@@ -1,0 +1,31 @@
+<LinearLayout
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/empty">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="75dp"
+        android:text="There Is No Any ToDo Yet"
+        android:textSize="24dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+        android:textColor="#969696" />
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="132dp"
+        android:layout_height="115dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_empty" />
+
+</LinearLayout>
